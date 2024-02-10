@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/bootc-image-builder/bootc-image-builder@sha256:cb0cb101224a5eacb1429a912e5a0b275d64f32cab9972eceba68c1dada1efe7
+      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/bootc-image-builder/bootc-image-builder@sha256:d5cb687b84d3e495b7e6383186f26a528c32ca697c150fccc9d2384efc93468b
         name: container-image
         resources: {}
 status: {}
