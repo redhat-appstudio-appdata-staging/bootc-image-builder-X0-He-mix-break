@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: bootc-image-builder
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/bootc-image-builder/bootc-image-builder@sha256:335891d230f40a2aba41678d0fc3e81b6e6db1edf22ae5ebb22e4380f6169820
+      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/bootc-image-builder/bootc-image-builder@sha256:08bf2e894a4b85533966702e62b07121fabf5e12a882a7d1eb75bacfdfc7ca52
         imagePullPolicy: Always
         name: container-image
         resources: {}
